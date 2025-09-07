@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "server", "server", "{DAD03CFC-D5FA-AC94-41C7-9ABAB326F09E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniERP", "server\MiniERP\MiniERP.csproj", "{7D19EDFB-21C3-044B-3CC1-2B5921A94B4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniERP.Core", "server\MiniERP.Core\MiniERP.Core.csproj", "{D6362C1D-1435-319C-5C42-BBC4E643B9C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D19EDFB-21C3-044B-3CC1-2B5921A94B4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D19EDFB-21C3-044B-3CC1-2B5921A94B4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D19EDFB-21C3-044B-3CC1-2B5921A94B4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D19EDFB-21C3-044B-3CC1-2B5921A94B4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6362C1D-1435-319C-5C42-BBC4E643B9C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6362C1D-1435-319C-5C42-BBC4E643B9C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6362C1D-1435-319C-5C42-BBC4E643B9C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6362C1D-1435-319C-5C42-BBC4E643B9C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7D19EDFB-21C3-044B-3CC1-2B5921A94B4F} = {DAD03CFC-D5FA-AC94-41C7-9ABAB326F09E}
+		{D6362C1D-1435-319C-5C42-BBC4E643B9C4} = {DAD03CFC-D5FA-AC94-41C7-9ABAB326F09E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A234ABD-C056-45A5-9F2D-EEE3FCDE9652}
+	EndGlobalSection
+EndGlobal
